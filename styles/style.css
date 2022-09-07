@@ -1,13 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} 
+}
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .carousel-item > img {
     height: 40rem;
+}
+
+.card > div > div > img {
+    width: 100%;
 }
