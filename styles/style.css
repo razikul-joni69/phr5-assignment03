@@ -24,3 +24,20 @@ footer {
     height: 40px;
     width: 40px;
 }
+
+@media screen and (max-width: 576px) {
+    .companies {
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 576px) {
+    .card {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .card {
+        width: 100%;
+    }
+}
